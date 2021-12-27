@@ -9,3 +9,27 @@ screen -S minecraft_server -p 0 -X stuff "^M"
 
 screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:diamond_boots{Enchantments:[{id:aqua_affinity,lvl:10},{id:bane_of_arthropods,lvl:10},{id:blast_protection,lvl:10},{id:depth_strider,lvl:10},{id:efficiency,lvl:10},{id:feather_falling,lvl:10},{id:fire_aspect,lvl:10},{id:fire_protection,lvl:10},{id:flame,lvl:10},{id:fortune,lvl:10},{id:frost_walker,lvl:10},{id:infinity,lvl:10},{id:knockback,lvl:10},{id:looting,lvl:10},{id:mending,lvl:10},{id:multishot,lvl:10},{id:piercing,lvl:10},{id:power,lvl:10},{id:projectile_protection,lvl:10},{id:protection,lvl:10},{id:punch,lvl:10},{id:quick_charge,lvl:10},{id:respiration,lvl:10},{id:sharpness,lvl:10},{id:silk_touch,lvl:10},{id:smite,lvl:10},{id:soul_speed,lvl:10},{id:sweeping,lvl:10},{id:thorns,lvl:10},{id:unbreaking,lvl:10}]} 1'
 screen -S minecraft_server -p 0 -X stuff "^M"
+
+/give @p minecraft:birch_sign 1
+
+minecraft:pink_bed
+
+screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:birch_sign 10'
+screen -S minecraft_server -p 0 -X stuff "^M"
+
+screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:torch 100'
+screen -S minecraft_server -p 0 -X stuff "^M"
+
+screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:chest 2'
+screen -S minecraft_server -p 0 -X stuff "^M"
+
+screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:pink_bed'
+screen -S minecraft_server -p 0 -X stuff "^M"
+
+screen -S minecraft_server -p 0 -X stuff '/give airjuice minecraft:diamond_axe'
+screen -S minecraft_server -p 0 -X stuff "^M"
+
+screen -S minecraft_server -p 0 -X stuff "^C"
+
+
+
